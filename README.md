@@ -1,5 +1,5 @@
 # Multithreaded-downloader-for-google-drive-API
-This is a python application to download multiple files from your google drive with threading. The application use Google-Drive-API to perform authentication and get the files. All these functions are integrated using a simple Python Click command line interface.
+This is a python application to download multiple files from your google drive with threading. The application use Google-Drive-API to perform authentication and get the files. All these functions are integrated using a simple and pretty Python Click command line interface, so you can download all those files without having to go through the hassle of ctr-selecting all the individual files on the browser. 
 
 On an average, the time taken for threaded downloading was almost </b>3X Less</b> than the regular downloading which enough for this app to make a point :grin:. You may notice(in the trial runs below) that in threaded download, the downloading of all files begin simultaneously whereas in the normal download its in a queued manner.
 
